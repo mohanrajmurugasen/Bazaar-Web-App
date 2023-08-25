@@ -1,0 +1,41 @@
+.AllProductList .image-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.AllProductList .image-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.AllProductList .hover-offer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  opacity: 1;
+}
+
+.AllProductList .hover-quickView {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.AllProductList .image-container:hover img {
+  filter: blur(5px); /* Apply blur effect on hover */
+}
+
+.AllProductList .image-container:hover .hover-quickView {
+  opacity: 1;
+}
+
+.productFilters::-webkit-scrollbar {
+  width: 12px;
+}

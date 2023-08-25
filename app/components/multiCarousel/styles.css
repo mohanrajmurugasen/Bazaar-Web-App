@@ -1,0 +1,22 @@
+.multiCarousel .rts___nav___btn:hover {
+  background-color: #fee6b6 !important;
+  transition: 0.5s all !important;
+}
+
+.multiCarousel .rts___btn:hover {
+  background-color: #fee6b6 !important;
+  transition: 0.5s all !important;
+}
+
+.rts___nav___btn:hover > svg {
+  stroke: black !important;
+}
+
+.multiCarousel .rts___btn {
+  border: 1px solid #e5be70 !important;
+}
+
+.multiCarousel .rts___tab___selected {
+  background-color: #fee6b6 !important;
+  color: black !important;
+}

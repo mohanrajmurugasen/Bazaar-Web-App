@@ -1,0 +1,16 @@
+.sliderImage {
+  max-width: 160px;
+}
+.entireSlider {
+  width: 300px;
+}
+.react-multiple-carousel__arrow {
+  background-color: white !important;
+  z-index: 1;
+}
+.react-multiple-carousel__arrow::before {
+  color: black !important;
+}
+.carouselContainer {
+  width: 95%;
+}
